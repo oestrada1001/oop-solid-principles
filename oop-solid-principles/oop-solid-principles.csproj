@@ -8,8 +8,10 @@
 
   <ItemGroup>
     <None Remove="principles\" />
+    <None Remove="principles\Single Responsobility\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="principles\" />
+    <Folder Include="principles\single-responsibility-principle\" />
   </ItemGroup>
 </Project>

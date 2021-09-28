@@ -1,20 +1,15 @@
 ﻿using System;
-using oop_solid_principles.principles;
+using oop_solid_principles.principles.singleresponsibilityprinciple;
 
 namespace oop_solid_principles
 {
     class Program
     {
 
-
         static void Main(string[] args)
         {
-            BeforeSolid cashRegister = new BeforeSolid();
-
-            cashRegister.createItem();
-            cashRegister.CalculateTotal();
+            SingleResponsibilityPrinciple cashResgisterProcess = new SingleResponsibilityPrinciple();
         }
-
 
     }
 
