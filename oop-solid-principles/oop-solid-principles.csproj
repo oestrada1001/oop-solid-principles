@@ -6,4 +6,10 @@
     <RootNamespace>oop_solid_principles</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="principles\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="principles\" />
+  </ItemGroup>
 </Project>
